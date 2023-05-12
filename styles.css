@@ -1,10 +1,12 @@
 :root {
     --title-color: #2E2F42;
     --paragraph-color: #434455;
+    --btn-: pointer;
 }
 
 body {
     font-family: 'roboto' , sans-serif;
+    color: #434455;
 }
 
 .link {
@@ -219,4 +221,60 @@ color: #F4F4FD;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+}
+
+
+
+/*-------Portfolio------------*/
+
+
+/*---------Btns--------*/
+.hero-portfolio {
+
+}
+
+.btn-list {
+}
+
+.btn-item {
+ 
+}
+
+.btn-panel {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*---------Images--------*/
+.hero-image {
+}
+
+.image-list {
+}
+
+.image-item {
+}
+
+.image-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+
+.imge-paragraph {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--paragraph-color);
 }
