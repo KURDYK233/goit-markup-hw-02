@@ -2,12 +2,13 @@
     --title-color: #2E2F42;
     --paragraph-color: #434455;
     --btn-: pointer;
+    --btn-color: #4d5ae5;
 }
 
 body {
     font-family: 'Roboto',  sans-serif;
     color: #434455;
-    background-color: ffffff;
+    background-color: FFFFFF;
 }
 
 .link {
@@ -67,6 +68,7 @@ color: var(--title-color);
 }
 
 .header-adress {
+    font-style: normal
 }
 
 .adress-list {
@@ -171,7 +173,7 @@ color: var(--title-color);
 }
 /*--------------------Team---------------------------*/
 .team {
-    background-color: #F4F4FD;
+
 }
 
 .team-title {
@@ -188,6 +190,7 @@ color: var(--title-color);
 }
 
 .team-item {
+    background-color: FFFFFF;
 }
 
 .team-name {
@@ -284,7 +287,7 @@ color: var(--title-color);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--btn-color);
     cursor: pointer;
 }
 
@@ -298,7 +301,7 @@ color: var(--title-color);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--btn-color);
     background-color:#F4F4FD;
     cursor: pointer;
 }
@@ -321,6 +324,14 @@ color: var(--title-color);
     list-style: none
 }
 
+.panel-list {
+
+}
+
+.link-image {
+    text-decoration: none
+}
+
 .image-item {
     text-decoration: none
 }
@@ -339,3 +350,4 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--paragraph-color);
 }
+
