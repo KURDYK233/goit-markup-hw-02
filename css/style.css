@@ -8,7 +8,7 @@
 body {
     font-family: 'Roboto',  sans-serif;
     color: #434455;
-    background-color: FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .link {
@@ -173,7 +173,7 @@ color: var(--title-color);
 }
 /*--------------------Team---------------------------*/
 .team {
-
+   background-color: #F4F4FD;
 }
 
 .team-title {
@@ -186,11 +186,11 @@ color: var(--title-color);
 }
 
 .team-list {
-    background-color: #FFFFFF
+    
 }
 
 .team-item {
-    background-color: FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .team-name {
