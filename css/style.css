@@ -63,7 +63,7 @@ color: var(--title-color);
 .header-link {
     font-weight: 500;
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--title-color);
 }
@@ -171,7 +171,7 @@ color: var(--title-color);
 }
 /*--------------------Team---------------------------*/
 .team {
-   background-color: var(--background-title-color);
+   background-color: var(--text-color);
 }
 
 .team-title {
@@ -230,7 +230,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--background-title-color);
+color: var(--text-color);
 
 }
 
