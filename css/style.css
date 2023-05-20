@@ -6,6 +6,7 @@
     --hover-color: #404bbf;
     --background-title-color: #F4F4F;
     --background-color: #FFFFFF;
+    --text-color: #f4f4fd;
 
 }
 
@@ -62,7 +63,7 @@ color: var(--title-color);
 .header-link {
     font-weight: 500;
 font-size: 16px;
-line-height: 1.5;
+line-height: 1.5px;
 letter-spacing: 0.02em;
 color: var(--title-color);
 }
@@ -237,7 +238,7 @@ color: var(--background-title-color);
     font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--background-title-color);
+color: var(--text-color);
 }
 
 
@@ -291,7 +292,7 @@ color: var(--title-color);
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--btn-color);
-    background-color:var(--background-title-color);
+    background-color:var(--text-color);
     cursor: pointer;
 }
 
